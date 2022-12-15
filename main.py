@@ -1,5 +1,5 @@
 
-def count_batteries_by_usage(cycles):
+def count_batteries_by_usage(battery):
   return {
     "lowCount": 0,
     "mediumCount": 0,

@@ -9,6 +9,11 @@ def count_batteries_by_usage(cycles):
 
 def test_bucketing_by_number_of_cycles():
   print("Counting batteries by usage cycles...\n");
+  battery=[]
+  n=int(input("enter the number of batteries : "))
+  for i in range(n):
+    k=int(input("enter the number : "))
+    battery.append(k)
   counts = count_batteries_by_usage(battery)
   for i in range(len(battery)):
     if battery[i]<310:
@@ -23,10 +28,6 @@ def test_bucketing_by_number_of_cycles():
 
 if __name__ == '__main__':
   test_bucketing_by_number_of_cycles()
-  battery=[]
-  n=int(input("enter the number of batteries : "))
-  for i in range(n):
-    k=int(input("enter the number : "))
-    battery.append(k)
+  
     
   

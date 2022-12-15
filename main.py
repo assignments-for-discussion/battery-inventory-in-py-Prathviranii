@@ -13,7 +13,7 @@ def test_bucketing_by_number_of_cycles():
   for i in range(len(battery)):
     if battery[i]<310:
       lowCount+=1
-    elif (battery[i]<310 and battery[i]>929:
+    elif (battery[i]<310 and battery[i]>929):
           mediumcount+=1
     else:
          # highCount+=1
